@@ -1,0 +1,40 @@
+body {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    331deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+  /* background-color: #fff; */
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  color: #010101;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
